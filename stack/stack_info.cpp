@@ -16,6 +16,8 @@ int main() {
         user_info.push(user_value);
     }
 
+
+    std::print("\n------------------------\n");
     while(!user_info.empty()) {
         std::print("Stack user: {}\n", user_info.top());
         user_info.pop();
