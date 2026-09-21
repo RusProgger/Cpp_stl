@@ -1,5 +1,8 @@
 #include <print>
 #include <vector>
+#include <iostream>
+
+
 
 /*
 
@@ -12,6 +15,14 @@ numbers[0];    // доступ по индексу
 */
 
 int main() {
+
+    std::print("Enter number to vector: ");
+    int count = 0;
+    std::cin >> count; 
+
+    std::vector<int> number(count);
+
+
 
 
 
