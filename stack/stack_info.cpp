@@ -24,6 +24,9 @@ int main() {
         user_info.pop();
     }
 
+
+    std::print("Enter to exit...");
+    std::cin.ignore();
     std::cin.get();
     return 0;
 }
