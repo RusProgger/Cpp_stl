@@ -23,5 +23,9 @@ int main() {
         number.pop();
     }
 
+
+
+    
+    std::cin.get();
     return 0;
 }
