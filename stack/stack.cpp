@@ -23,9 +23,8 @@ int main() {
         number.pop();
     }
 
-
-
     
+    std::gin.ignore();
     std::cin.get();
     return 0;
 }
