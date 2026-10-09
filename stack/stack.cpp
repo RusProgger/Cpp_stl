@@ -23,8 +23,10 @@ int main() {
         number.pop();
     }
 
-    
-    std::gin.ignore();
+
+
+
+    std::print("Enter to exit...");
     std::cin.get();
     return 0;
 }
