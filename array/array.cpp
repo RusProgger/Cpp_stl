@@ -1,5 +1,6 @@
 #include <iostream>
 #include <array>
+#include <print>
 
 
 int main() {
@@ -8,7 +9,7 @@ int main() {
     // вывод массива
 
     for(int i = 0; i < 10; i++) {
-        std::cout << number[i] << " ";
+        std::print("{} ", number[i]);
     }
 
     return 0;
