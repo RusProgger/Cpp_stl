@@ -8,7 +8,7 @@ int main() {
 
     // вывод массива
 
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i < number.size(); i++) {
         std::print("{} ", number[i]);
     }
 
