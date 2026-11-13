@@ -1,6 +1,7 @@
 #include <iostream>
 #include <array>
 #include <print>
+#include <algorithm>
 
 
 int main() {
@@ -16,6 +17,16 @@ int main() {
 
     std::print("\n\n---------- Array sorted ----------\n\n");
 
+    // sort
 
+    std::sort(number.begin(), number.end());
+
+    // output sort array
+
+    for(int i : number) {
+        std::print("{} ", i);
+    }
+
+    
     return 0;
 }
