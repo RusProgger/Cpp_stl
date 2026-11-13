@@ -8,9 +8,14 @@ int main() {
 
     // вывод массива
 
+    std::print("\n---------- Array ----------\n\n");
+
     for(int i = 0; i < number.size(); i++) {
         std::print("{} ", number[i]);
     }
+
+    std::print("\n\n---------- Array sorted ----------\n\n");
+
 
     return 0;
 }
