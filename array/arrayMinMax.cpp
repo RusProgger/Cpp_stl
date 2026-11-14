@@ -9,6 +9,7 @@ int main() {
     int arrayMin = numbers[0];
     int arrayMax = numbers[0];
 
+    // loop 
 
     for(int i  = 0; i < numbers.size(); i++) {
 
