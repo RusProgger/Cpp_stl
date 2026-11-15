@@ -27,6 +27,8 @@ int main() {
     // Вывод
 
     std::print("Even number: {}", even);
+    std::print("Odd number: {}", odd);
+
     
     return 0;
 }
