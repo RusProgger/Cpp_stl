@@ -10,6 +10,11 @@ int main() {
 
     std::print("Element array: {}", numbers.at(2)); // 5
 
+    // вывод четных и нечетных чисел из массива
+
+    int odd = 0;
+    int even = 0;
+
     
 
     return 0;
