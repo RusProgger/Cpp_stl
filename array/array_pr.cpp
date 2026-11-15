@@ -11,7 +11,9 @@ int main() {
     }
 
     std::print("Summa: {}\n", count);
-    std::print("Size byte: {}", sizeof(numbers));
+    std::print("Size byte: {}\n", sizeof(numbers));
     std::print("Size item: {}", size(numbers));
+
+    
     return 0;
 }
