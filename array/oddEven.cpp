@@ -12,8 +12,8 @@ int main() {
 
     // вывод четных и нечетных чисел из массива
 
-    int odd = 0;
-    int even = 0;
+    int odd = 0; // нечетное число
+    int even = 0; // четное
 
     for(const auto& num : numbers) {
         if(num % 2 == 0) {
@@ -23,5 +23,7 @@ int main() {
         }
     }
 
+
+    // Вывод
     return 0;
 }
