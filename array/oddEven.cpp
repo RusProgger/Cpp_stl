@@ -8,7 +8,7 @@ int main() {
 
     // получаем доступ к елементу массива 
 
-    std::print("Element array: {}", numbers.at(2)); // 5
+    std::print("Element array: {}\n", numbers.at(2)); // 5
 
     // вывод четных и нечетных чисел из массива
 
