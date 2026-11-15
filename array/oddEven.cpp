@@ -25,5 +25,8 @@ int main() {
 
 
     // Вывод
+
+    std::print("Even number: {}", even);
+    
     return 0;
 }
