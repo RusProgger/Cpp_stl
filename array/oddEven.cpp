@@ -15,7 +15,13 @@ int main() {
     int odd = 0;
     int even = 0;
 
-    
+    for(const auto& num : numbers) {
+        if(num % 2 == 0) {
+            even++;
+        } else {
+            odd++;
+        }
+    }
 
     return 0;
 }
