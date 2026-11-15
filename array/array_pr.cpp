@@ -10,8 +10,8 @@ int main() {
         count += numbers[i];
     }
 
-    std::print("Summa: {}", count);
-
-    
+    std::print("Summa: {}\n", count);
+    std::print("Size byte: {}", sizeof(numbers));
+    std::print("Size item: {}", size(numbers));
     return 0;
 }
