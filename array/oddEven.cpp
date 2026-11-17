@@ -31,6 +31,13 @@ int main() {
         } 
     }
 
+    // вывод нечётных чисел 
+
+    for(const auto& num : numbers) {
+        if(num % 2 != 0) {
+            std::print("Number odd: {}\n", num);
+        } 
+    }
     // Вывод
 
     std::print("Even number: {}\n", even);
