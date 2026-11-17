@@ -31,7 +31,7 @@ int main() {
         } 
     }
 
-    std::print("\n---------- Output number ----------\n");
+    std::print("\n---------- Output number ----------\n\n");
     // вывод нечётных чисел 
 
     for(const auto& num : numbers) {
@@ -40,6 +40,8 @@ int main() {
         } 
     }
     // Вывод
+
+    std::print("\n---------- Result: ----------\n");
 
     std::print("\nEven numbers: {}\n", even);
     std::print("\nOdd numbers: {}\n", odd);
