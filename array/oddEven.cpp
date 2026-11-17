@@ -28,9 +28,7 @@ int main() {
     for(const auto& num : numbers) {
         if(num % 2 == 0) {
             std::print("Number even: {}\n", num);
-        } else {
-            std::print("Number odd: {}\n", num);;
-        }
+        } 
     }
 
     // Вывод
