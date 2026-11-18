@@ -22,6 +22,7 @@ int main() {
     }
 
     std::print("Min: {}\n", arrayMin);
+    std::print("\n\n--------------------------\n\n");
     std::print("Max: {}\n", arrayMax);
 
     return 0;
