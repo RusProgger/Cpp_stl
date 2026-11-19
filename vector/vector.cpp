@@ -35,7 +35,7 @@ int main() {
 
     for(int i = 0; i < count; i++) {
         int ver_user;
-        std::print("Введите значение вектора {}: ", i + 1);
+        std::print("Введите значение вектора начиная с {}: ", i + 1);
         std::cin >> ver_user;
     }
 
