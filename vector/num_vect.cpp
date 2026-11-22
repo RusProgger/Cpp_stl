@@ -8,6 +8,7 @@ int main() {
     std::vector<std::string> name;
 
     name.push_back("Alex");
+    name.push_back("Alena");
 
     for(const auto& i : name) {
         std::print("Name: {}", i);
