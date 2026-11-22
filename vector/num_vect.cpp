@@ -11,8 +11,10 @@ int main() {
     name.push_back("Alena");
 
     for(const auto& i : name) {
-        std::print("Name: {}", i);
+        std::print("Name: {}\n", i);
     }
+
+    std::print("Size: {}", name.size());
 
     return 0;
 }
